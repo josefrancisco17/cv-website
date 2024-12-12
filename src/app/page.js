@@ -2,14 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-        <div className="h-screen flex flex-col items-center justify-center gap-6">
-            <Image
-                src="/profile.webp"
-                alt="Profile Picture"
-                width={150}
-                height={150}
-                className="rounded-full shadow-lg"
-            />
+        <div className="h-min-screen flex flex-col items-center justify-center gap-6">
             <h1 className="text-5xl md:text-6xl font-extrabold">José Francisco</h1>
             <h3 className="text-lg md:text-xl text-gray-300">Student at Instituto Superior de Engenharia do Porto</h3>
             <p className="text-sm md:text-lg text-gray-400">Aspiring Software Engineer / DevSecOps Engineer</p>
