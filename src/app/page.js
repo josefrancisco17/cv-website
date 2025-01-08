@@ -9,7 +9,7 @@ export default function Home() {
     const containerRef = useRef(null);
 
     const sampleProjects = [
-        { name: "NEETI Website", desc: "A website for the students of ISEP-LETI.", href: "https://neeti.josefranciso.tech/" },
+        { name: "NEETI Website", desc: "A website for the students of ISEP-LETI.", href: "https://neeti.josefrancisco.tech/" },
         { name: "Library Managing System", desc: "A Spring Boot API with microservices, using RabbitMQ as a message broker." , href: "https://github.com/josefrancisco17/SIDIS-LMS"},
         { name: "Library Client App", desc: "A React Native mobile application that enables users to manage their books." , href: "https://github.com/josefrancisco17/DSSMV_ProjectReact_1220971"},
     ];
@@ -60,13 +60,8 @@ export default function Home() {
             <h1>José Francisco</h1>
             <h2>Student @ Instituto Superior de Engenharia do Porto</h2>
             <div className="tagline">
-                Aspiring Software Engineer / DevSecOps Engineer
+                Aspiring Software Engineer
             </div>
-
-            <p>
-                Passionate about crafting secure, scalable software solutions.
-                Enjoy exploring new technologies and embracing best practices in DevSecOps.
-            </p>
             <div className="links">
                 <a
                     href="https://github.com/josefrancisco17"
@@ -97,7 +92,7 @@ export default function Home() {
                     />
                 </a>
                 <a
-                    href="mailto:josefrancisco17@gmail.com"
+                    href="mailto:josefranciscoantunesleal@gmail.com"
                     aria-label="Email"
                 >
                     <Image
